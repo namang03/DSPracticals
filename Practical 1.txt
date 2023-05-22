@@ -52,3 +52,8 @@ public double add(double d1, double d2) throws RemoteException {
 return d1 + d2;
 }
 }
+
+// $ javac *.java
+// $rmiregistry
+// $ java AddServer
+// $ java AddClient
